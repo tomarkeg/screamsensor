@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-########################################################################
-# Filename    : SenseLED.py
-# Description : Control led with infrared Motion sensor.
-# Author      : www.freenove.com
-# modification: 2019/12/28
-########################################################################
+#original code from freenove and I modded it to work with server and send according msg
 import RPi.GPIO as GPIO
 import socket
 from time import sleep
